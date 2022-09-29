@@ -1,0 +1,122 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url(imagens/wallpaper03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.card {
+    background-color: #ffffff80;
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 5px #00000080;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #02102A;
+}
+
+.label-float input {
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #02102A;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+
+.label-float {
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float input:focus {
+    border-bottom: 2px solid #00000080;
+}
+
+.label-float label {
+    color: #02102A;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+}
+
+.label-float input:focus + label {
+    font-size: 13px;
+    margin-top: 0;
+    color: #00000080;
+}
+
+button {
+    background-color: transparent;
+    border-color: #02102A;
+    color: #02102A;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+}
+
+button:hover{
+    background-color: #02102A;
+    color: #FFFFFF;
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center
+}
+
+hr {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 60%;
+}
+
+p {
+    color: #02102A;
+    font-size: 14pt;
+    text-align: center;
+}
+a {
+    color: #02102A;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+a:hover {
+    color: #11429e;
+}
